@@ -43,7 +43,6 @@ class ArticlesController < ApplicationController
 		@article.destroy
 
 		flash.notice = "Article '#{@article.title}' destroyed"
-
-		
 	end
+	
 end
